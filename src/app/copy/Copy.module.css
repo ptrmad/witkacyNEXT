@@ -1,0 +1,17 @@
+.copy p {
+  text-justify: distribute;
+  padding-bottom: 1rem;
+  max-width: 40vw;
+}
+
+.copy h2,
+.copy h3,
+.copy h4 {
+  max-width: 40vw;
+  text-align: center;
+}
+
+.copy h2:first-of-type {
+  display: block;
+  margin: 0 auto;
+}

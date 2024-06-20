@@ -1,0 +1,7 @@
+.biography {
+  width: 100%;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 0 10vw;
+}

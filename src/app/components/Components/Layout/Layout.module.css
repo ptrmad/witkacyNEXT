@@ -1,0 +1,26 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.topBar {
+  width: 100vw;
+  background-color: var(--color-red);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  height: 15%;
+  z-index: 1;
+}
+
+.mainContent {
+  padding: 10% 0 10% 0;
+  background-color: var(--color-black);
+  color: var(--color-white);
+  z-index: 0;
+}

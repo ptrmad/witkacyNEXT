@@ -1,0 +1,18 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.contact p {
+  transition: 0.5s ease;
+}
+
+.contact p:first-of-type {
+  font-weight: 700;
+}
+
+.contact p:last-of-type:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
