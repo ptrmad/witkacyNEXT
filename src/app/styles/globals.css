@@ -25,10 +25,15 @@ h3 {
   font-size: 1.25rem;
 }
 
+html {
+  max-width: 100vw;
+}
+
 body {
   font-size: var(--font-size-default);
   font-family: var(--font-family-default);
   color: var(--color-text-default);
+  width: 100vw;
 }
 
 a {

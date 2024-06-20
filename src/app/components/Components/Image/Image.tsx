@@ -1,4 +1,5 @@
 import React from "react";
+import styles from "./Image.module.css";
 
 interface ImageProps {
   Source: string;
@@ -8,16 +9,11 @@ interface ImageProps {
   alt?: string;
 }
 
-export const Image: React.FC<ImageProps> = ({
-  Source,
-  AltText,
-  Caption,
-  className,
-}) => {
+export function Image({ Source, AltText, Caption, className }: ImageProps) {
   return (
-    <figure className={className}>
+    <figure className={styles.Image}>
       <img src={Source} alt={AltText} />
       <figcaption>{Caption}</figcaption>
     </figure>
   );
-};
+}

@@ -1,9 +1,9 @@
 .NavBar {
   display: flex;
-  gap: 15%;
+  align-items: center;
+  gap: 5vw;
   flex-direction: row;
-  width: 40%;
-  padding: 2rem 2rem;
+  width: 100%;
   font-weight: 700;
 }
 

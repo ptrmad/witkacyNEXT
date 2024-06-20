@@ -1,0 +1,23 @@
+.copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.copy h2,
+.copy h3 {
+  text-align: center;
+}
+
+.copy p {
+  text-align: left;
+  text-justify: left;
+  font-size: 1rem;
+}
+
+.copy figcaption {
+  max-width: 75vw;
+  text-align: left;
+}

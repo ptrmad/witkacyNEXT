@@ -1,13 +1,11 @@
 .copy p {
   text-justify: distribute;
-  padding-bottom: 1rem;
-  max-width: 40vw;
+  padding: 0 2.5vw;
 }
 
 .copy h2,
 .copy h3,
 .copy h4 {
-  max-width: 40vw;
   text-align: center;
 }
 

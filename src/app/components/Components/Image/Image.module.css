@@ -1,35 +1,22 @@
+.Image {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
 .Image figcaption {
   font-size: 0.75rem;
   text-align: center;
-  margin: 1rem 0 2.5rem 0;
 }
 
-.Image section {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  align-items: center;
-  justify-content: center;
-  animation: fade-in linear forwards;
-  animation-timeline: view();
-  animation-range: -10% 25%;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .Image img {
-    border-radius: 20px;
-    height: 70vh;
-    box-shadow: 0 0 1rem 0.5rem var(--color-blue);
-  }
-
-  @keyframes fade-in {
-    from {
-      scale: 0.8;
-      opacity: 0;
-    }
-    to {
-      scale: 1;
-      opacity: 1;
-    }
-  }
+.Image img {
+  align-self: center;
+  justify-self: center;
+  border-radius: 20px;
+  max-width: 75vw;
+  box-shadow: 0 0 1rem 0.5rem var(--color-blue);
 }
