@@ -25,7 +25,7 @@ export function Copy({ children, copyData }: CopyProps) {
     <div className={styles.copy}>
       <h2>{children}</h2>
       {copyData.map((item) => (
-        <div key={item.heading}>
+        <div className={styles.article} key={item.heading}>
           <h3>{item.heading}</h3>
           <p>{item.text}</p>
           {item.image && item.image.Source && (

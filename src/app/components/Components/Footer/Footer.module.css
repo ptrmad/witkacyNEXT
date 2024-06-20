@@ -1,12 +1,12 @@
 .footer {
-  width: 100%;
+  width: 100vw;
   height: 15vh;
   max-height: 10rem;
   background-color: var(--color-dark-blue);
   color: var(--color-white);
   display: flex;
   align-items: center;
-  justify-content: right;
-  gap: 10%;
+  justify-content: center;
+  gap: 2vw;
   z-index: 1;
 }

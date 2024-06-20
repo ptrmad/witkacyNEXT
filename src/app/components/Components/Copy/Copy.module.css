@@ -4,6 +4,8 @@
   justify-content: center;
   align-items: center;
   width: 100vw;
+  padding: calc(1rem + 1vw) calc(1rem + 1vh);
+  gap: calc(1rem + 1vh);
 }
 
 .copy h2,
@@ -20,4 +22,11 @@
 .copy figcaption {
   max-width: 75vw;
   text-align: left;
+  padding-top: 1rem;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  gap: calc(1rem + 1vh);
 }

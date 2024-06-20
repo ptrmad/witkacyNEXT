@@ -3,7 +3,7 @@ export function Contact() {
   return (
     <div className={styles.contact}>
       <p>Contact:</p>
-      <p>piotr.m.drozdzal@gmail.com</p>
+      <p>copy email</p>
       <p>webpage</p>
     </div>
   );

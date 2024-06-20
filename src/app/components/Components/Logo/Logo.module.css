@@ -1,8 +1,10 @@
 .logo {
   text-transform: uppercase;
-  font-size: 3rem;
+  font-size: 2rem;
   text-decoration: overline;
   transition: 0.5s ease;
+  text-align: center;
+  padding: 1.5vh 0;
 }
 
 .logo:hover {
