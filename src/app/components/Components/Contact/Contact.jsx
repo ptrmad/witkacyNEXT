@@ -3,8 +3,13 @@ export function Contact() {
   return (
     <div className={styles.contact}>
       <p>Contact:</p>
-      <p>copy email</p>
-      <p>webpage</p>
+      <p>
+        {" "}
+        <a href="https://github.com/ptrmad">GitHub</a>
+      </p>
+      <p>
+        <a href="https://pmd-portfolio.netlify.app">Portfolio Page</a>
+      </p>
     </div>
   );
 }

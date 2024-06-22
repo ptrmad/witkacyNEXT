@@ -6,7 +6,9 @@ export function Footer() {
   return (
     <div className={styles.footer}>
       <Logo isFooter={true} />
-      <p>by ptr.m.d</p>
+      <p>
+        by <a href="https://github.com/ptrmad">ptr.m.d</a>
+      </p>
       <Contact />
     </div>
   );
