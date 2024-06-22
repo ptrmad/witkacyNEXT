@@ -9,6 +9,8 @@
   font-weight: 700;
   background-color: var(--color-blue);
   color: var(--color-black);
+  text-transform: uppercase;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .Navbar a {

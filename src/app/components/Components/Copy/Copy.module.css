@@ -6,17 +6,28 @@
   width: 100vw;
   padding: calc(1rem + 1vw) calc(1rem + 1vh);
   gap: calc(1rem + 1vh);
+  background-color: var(--color-black);
+  color: var(--color-white);
+  text-shadow: 3px 2px 0.1rem var(--color-black);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-.copy h2,
-.copy h3 {
+.copy h2 {
+  font-size: 4rem;
   text-align: center;
+  text-shadow: 2px 2px 1px var(--color-red);
+}
+.copy h3 {
+  font-size: 2rem;
+  text-align: left;
+  text-shadow: 2px 2px 1px var(--color-red);
 }
 
 .copy p {
   text-align: left;
   text-justify: left;
-  font-size: 1rem;
+  font-size: 1.5rem;
+  line-height: 1.25;
 }
 
 .copy figcaption {

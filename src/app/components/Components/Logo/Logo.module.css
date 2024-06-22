@@ -5,6 +5,10 @@
   transition: 0.5s ease;
   text-align: center;
   padding: 1.5vh 0;
+  background-color: var(--color-dark-blue);
+  color: var(--color-black);
+  text-shadow: 1px 1px 1px var(--color-red);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .logo:hover {
