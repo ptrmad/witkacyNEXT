@@ -27,7 +27,8 @@
   text-align: left;
   text-justify: left;
   font-size: 1.5rem;
-  line-height: 1.25;
+  line-height: 1.5;
+  max-width: clamp(0px, 95vw, 55rem);
 }
 
 .copy figcaption {
