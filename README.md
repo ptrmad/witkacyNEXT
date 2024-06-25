@@ -16,7 +16,7 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-<div align="center">
-  <img src="../Zrzut ekranu 2024-06-25 o 14.04.44.png" alt="Witkacy Page Screenshot" width="800px" height="auto" />
+<div>
+  <img src="../WtkcScreen.png" alt="Witkacy Page Screenshot" width="800px" height="auto" />
 </div>
 ## Learn More
