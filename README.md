@@ -19,4 +19,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 <div>
   <img src="https://raw.githubusercontent.com/ptrmad/witkacyNEXT/main/WtkcScreen.png" alt="Witkacy Page Screenshot" width="800px" height="auto" />
 </div>
-## Learn More
+
+## Explore the world of Witkacy
+
+This page contains information about the famous Polish writer - Witkacy. The routing is managed using the Next.js page function.
